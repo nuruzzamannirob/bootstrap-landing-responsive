@@ -1,0 +1,165 @@
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .navbar-light .navbar-toggler-icon{
+       background-image:url(/images/bars-solid.svg);
+       background-color: white;
+    }
+
+    .menu .navbar-light .navbar-nav .nav-link.active {
+        background: url(../images/bor.png) left bottom no-repeat;
+        background-size: auto;
+    }
+
+    .menu .navbar-light .navbar-nav .nav-link:hover{
+        background: url(../images/bor.png) left bottom no-repeat;
+        background-size: auto;
+
+    }
+
+    .inner-feature {
+        text-align: center;
+        padding: 10px 0px;
+        border-bottom: 1px solid #EDEDED;
+    }
+
+    .long-section {
+        padding: 10px 0px;
+    }
+    .long-section h2 {
+        font-size: 22px;
+        color: black;
+        font-weight: 600;
+        margin-bottom: 30px;
+        padding-bottom: 15px;
+        background: url(../images/bor.png)left bottom no-repeat;
+        background-size: auto;
+    }
+
+    .short-section {
+        padding: 10px 0px;
+        background-color: #F2F2F2;
+    }
+    .short-section h2 {
+        font-size: 22px;
+        color: black;
+        font-weight: 600;
+        margin-bottom: 30px;
+        padding-bottom: 15px;
+        background: url(../images/bor.png)left bottom no-repeat;
+        background-size: auto;
+    }
+
+    .price-section {
+        padding: 10px 0px;
+        text-align: center;
+    }
+    .contact-section {
+        padding: 10px 0px;
+        text-align: center;
+        background-color: #EDEDED;
+    }
+
+    .form-section {
+        width: 50%;
+        padding: 20px 100px;
+        background-color: black;
+        text-align: center;
+        margin: 5px auto;
+        padding: 7px 5px;
+        position: relative;
+        z-index: 1;
+        margin-bottom: -70px;
+    }
+
+    .long-section li {
+        list-style: none;
+        font-size: 20px;
+        line-height: 32px;
+        margin-right: 70px;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+}
+
+
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+
+    .navbar-light .navbar-toggler-icon{
+        background-image:url(/images/bars-solid.svg);
+        background-color: white;
+     }
+ 
+     .menu .navbar-light .navbar-nav .nav-link.active {
+         background: url(../images/bor.png) left bottom no-repeat;
+         background-size: auto;
+     }
+ 
+     .menu .navbar-light .navbar-nav .nav-link:hover{
+         background: url(../images/bor.png) left bottom no-repeat;
+         background-size: auto;
+ 
+     }
+ 
+     .inner-feature {
+         text-align: center;
+         padding: 10px 0px;
+         border-bottom: 1px solid #EDEDED;
+     }
+ 
+     .long-section {
+         padding: 10px 0px;
+     }
+     .long-section h2 {
+         font-size: 22px;
+         color: black;
+         font-weight: 600;
+         margin-bottom: 30px;
+         padding-bottom: 15px;
+         background: url(../images/bor.png)left bottom no-repeat;
+         background-size: auto;
+     }
+ 
+     .short-section {
+         padding: 10px 0px;
+         background-color: #F2F2F2;
+     }
+     .short-section h2 {
+         font-size: 22px;
+         color: black;
+         font-weight: 600;
+         margin-bottom: 30px;
+         padding-bottom: 15px;
+         background: url(../images/bor.png)left bottom no-repeat;
+         background-size: auto;
+     }
+ 
+     .price-section {
+         padding: 10px 0px;
+         text-align: center;
+     }
+     .contact-section {
+         padding: 10px 0px;
+         text-align: center;
+         background-color: #EDEDED;
+     }
+ 
+     .form-section {
+         width: 50%;
+         padding: 20px 100px;
+         background-color: black;
+         text-align: center;
+         margin: 5px auto;
+         padding: 7px 5px;
+         position: relative;
+         z-index: 1;
+         margin-bottom: -70px;
+     }
+
+
+}
